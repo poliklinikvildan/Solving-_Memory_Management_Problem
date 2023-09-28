@@ -35,7 +35,7 @@ def run_jobs(jobs, memory_allocation):
                 job.state = "Sleep"
                 break
 
-            current_time += 1
+            current_time += 1  # 1 second
 
     for job in jobs:
         print(f"{job.job_id}: {job.state}")
@@ -86,9 +86,9 @@ def worst_fit_allocation(jobs, memory_used, job, memory_limit, page_size):
 # Read data from input1.txt
 input1_data = read_table_data("input1.txt")
 
-print("Table-1 Jobs (Random Fit):")
+print("Table-1 Jobs (Job Execution):")
 table1_jobs = [Job(*data) for data in input1_data]
-run_jobs(table1_jobs, lambda jobs, memory_used, job, memory_limit, page_size: memory_used + job.job_size <= memory_limit)
+run_jobs(table1_jobs, lambda jobs, memory_used, job, memory_limit, page_size: None)
 
 # Read data from input2.txt
 input2_data = read_table_data("input2.txt")
