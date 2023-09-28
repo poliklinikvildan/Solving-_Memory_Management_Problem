@@ -35,7 +35,7 @@ def run_jobs(jobs, memory_allocation):
                 job.state = "Sleep"
                 break
 
-            current_time += 1
+            current_time += 1  # 1 second
 
     for job in jobs:
         print(f"{job.job_id}: {job.state}")
