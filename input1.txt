@@ -1,0 +1,8 @@
+1 1 2 7 End
+2 2 3 8 Sleep
+3 3 4 6 End
+4 4 3 6 Sleep
+5 5 2 9 Sleep
+6 6 3 6 Sleep
+7 7 2 6 Sleep
+
