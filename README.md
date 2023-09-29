@@ -1,4 +1,3 @@
-# Solving_Memory_Management_Problem
 **Summary:**
 
 The provided Python code serves as a comprehensive tool for simulating memory management in a computer operating system. It takes input job data from two files, `input1.txt` and `input2.txt`, and conducts job processing based on different memory allocation algorithms, namely Random Fit, Best-Fit, First-Fit, and Worst-Fit, as outlined in the Assignment 1 prompt. After processing the jobs, the program reports the state of each job at the end of each interval.
